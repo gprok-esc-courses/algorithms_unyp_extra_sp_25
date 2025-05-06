@@ -1,5 +1,8 @@
 # NOT WORKING, YET
 
+# Formula to find if attacked
+# abs(placed[row] - cur_col) == abs(row - cur-row)
+
 placed = []
 
 def add_queen(placed, row):
